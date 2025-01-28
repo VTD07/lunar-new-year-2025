@@ -121,6 +121,7 @@ button:hover span:after {
 
 #lett
 {
+    text-decoration: none;
     color: white;
     /* font-size: 64px; */
     font-style: normal;
