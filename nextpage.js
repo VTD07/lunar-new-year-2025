@@ -10,7 +10,7 @@ stylesheet.sheet.insertRule(`
 
 document.getElementById("lett").style.display = "none";
 
-var finishdate=new Date("Jan 8, 2025 00:00:00").getTime();
+var finishdate=new Date("Jan 29, 2025 00:00:00").getTime();
 
 var time=setInterval(
     function()

@@ -123,6 +123,7 @@ button:hover span:after {
 {
     text-decoration: none;
     color: white;
+    text-align: left;
     /* font-size: 64px; */
     font-style: normal;
     font-weight: 400;
