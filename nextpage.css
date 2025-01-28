@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Kaku+Gothic+New&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html
+{
+    background-image: url('—Pngtree—new\ year\ fireworks\ lift\ off_1276613.png'); 
+    background-color: #0C0C2C;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default body margin */
+    height: 100vh; /* Makes the body take up the full viewport height */
+    font-family: 'Zen Kaku Gothic New';
+    min-height: 50vh;
+}
+
+.clock
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fi-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+}
+.word1
+{
+    background: linear-gradient(180deg, #FFF 52.5%, rgba(255, 255, 255, 0.08) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144px;
+    letter-spacing: 5.12px;
+}
+#demo
+{
+    background: linear-gradient(180deg, #FFF 52.5%, rgba(255, 255, 255, 0.08) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 125% */
+    letter-spacing: 1.28px;
+}
+.butt 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button 
+{
+    box-shadow: 0px 4px 32px rgba(99, 102, 241, 0.7);
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #6366f1, #4f46e5);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 15px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.letter
+{
+    width: 90%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+#lett
+{
+    color: white;
+    /* font-size: 64px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+    letter-spacing: 1.28px;
+    white-space: pre-line;
+    font-family: monospace;
+}
+
+@media (max-width: 430px) {
+    .word1 {
+        font-size: 40px; 
+        font-weight: 400;
+    }
+    #demo {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .letter
+    {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .word1
+    {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    #demo
+    {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .letter
+    {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 200px){
+    .word1
+    {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #demo
+    {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
